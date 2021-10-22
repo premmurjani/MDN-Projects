@@ -1,0 +1,39 @@
+.card {
+  width: 30em;
+  height: 15em;
+  background-color: red;
+  border: black 0.3em solid;
+  border-radius: 3em;
+}
+
+header,
+footer {
+  height: 20%;
+}
+
+article {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60%;
+}
+
+img {
+  float: right;
+  max-height: 100%;
+}
+
+h2,
+p {
+  margin: 0px;
+}
+
+h2 {
+  padding: 0.5em;
+}
+
+footer p {
+  padding: 0.8em;
+}
+
+article p {
+  padding: 0.5em;
+}
