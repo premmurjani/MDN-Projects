@@ -1,0 +1,133 @@
+/* General setup */
+
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.8vw;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Zen Antique", serif;
+  line-height: 2em;
+  letter-spacing: 0.4px;
+  word-spacing: 3px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  font-size: 1.7em;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  font-size: 1.3em;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+header {
+  text-align: center;
+}
+
+footer {
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif Display", serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h1 + p,
+h2 + p {
+  text-indent: 35px;
+}
+
+a {
+  color: #a66;
+}
+
+a:visited {
+  color: rgba(184, 126, 3, 0.801);
+}
+
+a:focus {
+  color: rgb(0, 255, 115);
+  outline: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+a:active {
+  color: brown;
+  zoom: 1.1;
+}
+
+a[href="#"] {
+  background: url("external-link-52.png") no-repeat;
+  background-size: 1em 1em;
+  background-position: right;
+  padding: 1em;
+}
+
+nav li {
+  list-style: none;
+  margin: 2em 0 2em 0px;
+  border: 0.2rem solid tan;
+}
+
+nav li .nobg {
+  background: none;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
